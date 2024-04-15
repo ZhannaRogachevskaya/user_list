@@ -1,0 +1,52 @@
+.form__list {
+  width: 40%;
+  height: 70%;
+  min-width: 250px;
+  min-height: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+input.find {
+  margin-bottom: 20px;
+}
+input.find,
+button.btn-send {
+  display: block;
+  width: 90%;
+  min-height: 25px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-top: 15px;
+  font-size: 12px;
+  color: rgb(156, 156, 156);
+}
+.users_list {
+  width: 100%;
+  min-height: 230px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+.skeleton-list {
+  max-width: 100%;
+}
+button.btn-send {
+  cursor: pointer;
+  background-color: rgb(99, 81, 104);
+  color: #fff;
+}
+button.btn-send:hover {
+  background-color: rgb(204, 187, 226);
+  color: rgb(102, 30, 124);
+  box-shadow: 5px 2px 5px rgb(226, 226, 226);
+}
+button.btn-send:disabled {
+  cursor: default;
+  background-color: gray;
+  color: #fff;
+}
